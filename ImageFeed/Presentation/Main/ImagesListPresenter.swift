@@ -7,6 +7,6 @@
 
 import Foundation
 
-final class ViewControllerPresenter {
+final class ImagesListPresenter {
     
 }
