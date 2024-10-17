@@ -141,70 +141,8 @@
                     <view key="view" contentMode="scaleToFill" id="P5D-EC-x5l">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="769"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="fmc-kR-AiC">
-                                <rect key="frame" x="16" y="91" width="70" height="70"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="70" id="53X-Fc-Jue"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="70" id="694-EW-Mlv"/>
-                                    <constraint firstAttribute="height" constant="70" id="FJJ-ke-pNs"/>
-                                </constraints>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="35"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBonds" value="YES"/>
-                                </userDefinedRuntimeAttributes>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sWr-6G-M0h">
-                                <rect key="frame" x="333" y="104" width="44" height="44"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="44" id="gbk-y0-nIB"/>
-                                    <constraint firstAttribute="height" constant="44" id="mUu-yQ-mPu"/>
-                                    <constraint firstAttribute="width" constant="44" id="qYa-tH-lhW"/>
-                                </constraints>
-                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" image="Exit"/>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Екатерина Новикова" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JJs-Hq-L3A">
-                                <rect key="frame" x="16" y="169" width="361" height="26"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="26" id="O2S-91-B3P"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
-                                <color key="textColor" name="YP White"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="@ekaterina_nov" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6yX-mp-r2A">
-                                <rect key="frame" x="16" y="203" width="361" height="15.666666666666657"/>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
-                                <color key="textColor" name="YP Gray"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello world!!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uVf-jw-kwr">
-                                <rect key="frame" x="16" y="226.66666666666666" width="361" height="16"/>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
-                                <color key="textColor" name="YP White"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="lJd-aj-6EV"/>
                         <color key="backgroundColor" name="YP Black"/>
-                        <constraints>
-                            <constraint firstItem="lJd-aj-6EV" firstAttribute="trailing" secondItem="sWr-6G-M0h" secondAttribute="trailing" constant="16" id="8dj-j9-GkT"/>
-                            <constraint firstItem="uVf-jw-kwr" firstAttribute="leading" secondItem="lJd-aj-6EV" secondAttribute="leading" constant="16" id="ETT-co-nCt"/>
-                            <constraint firstItem="6yX-mp-r2A" firstAttribute="leading" secondItem="lJd-aj-6EV" secondAttribute="leading" constant="16" id="MOs-fO-uUk"/>
-                            <constraint firstItem="sWr-6G-M0h" firstAttribute="top" secondItem="lJd-aj-6EV" secondAttribute="top" constant="45" id="Nk1-Ac-7RZ"/>
-                            <constraint firstItem="JJs-Hq-L3A" firstAttribute="leading" secondItem="lJd-aj-6EV" secondAttribute="leading" constant="16" id="T2E-IA-jX5"/>
-                            <constraint firstItem="6yX-mp-r2A" firstAttribute="top" secondItem="JJs-Hq-L3A" secondAttribute="bottom" constant="8" id="ZEo-fp-gMp"/>
-                            <constraint firstItem="lJd-aj-6EV" firstAttribute="trailing" secondItem="JJs-Hq-L3A" secondAttribute="trailing" constant="16" id="dWH-Ee-Bun"/>
-                            <constraint firstItem="uVf-jw-kwr" firstAttribute="top" secondItem="6yX-mp-r2A" secondAttribute="bottom" constant="8" id="hho-p1-Zbj"/>
-                            <constraint firstItem="lJd-aj-6EV" firstAttribute="trailing" secondItem="6yX-mp-r2A" secondAttribute="trailing" constant="16" id="jPh-Rs-UPf"/>
-                            <constraint firstItem="fmc-kR-AiC" firstAttribute="top" secondItem="lJd-aj-6EV" secondAttribute="top" constant="32" id="lvA-P5-t6m"/>
-                            <constraint firstItem="lJd-aj-6EV" firstAttribute="trailing" secondItem="uVf-jw-kwr" secondAttribute="trailing" constant="16" id="qtg-xS-ga6"/>
-                            <constraint firstItem="JJs-Hq-L3A" firstAttribute="top" secondItem="fmc-kR-AiC" secondAttribute="bottom" constant="8" id="wd1-wI-jBr"/>
-                            <constraint firstItem="fmc-kR-AiC" firstAttribute="leading" secondItem="lJd-aj-6EV" secondAttribute="leading" constant="16" id="zUc-1a-4xu"/>
-                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="ProfileNoActive" selectedImage="ProfileActive" id="uGp-sF-Nc1"/>
                 </viewController>
@@ -304,9 +242,7 @@
     </scenes>
     <resources>
         <image name="0" width="1600" height="1059"/>
-        <image name="1" width="985" height="1280"/>
         <image name="Backward" width="24" height="24"/>
-        <image name="Exit" width="88" height="88"/>
         <image name="ImagesListActive" width="30" height="30"/>
         <image name="ImagesListNoActive" width="30" height="30"/>
         <image name="ProfileActive" width="30" height="30"/>
@@ -315,9 +251,6 @@
         <image name="image_like_on" width="44" height="44"/>
         <namedColor name="YP Black">
             <color red="0.10199999809265137" green="0.10599999874830246" blue="0.13300000131130219" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="YP Gray">
-            <color red="0.90200001001358032" green="0.9100000262260437" blue="0.92199999094009399" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="YP White">
             <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
